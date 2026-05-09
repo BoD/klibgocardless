@@ -1,0 +1,93 @@
+public final class org/jraf/klibgocardless/VersionKt {
+	public static final field VERSION Ljava/lang/String;
+}
+
+public abstract interface class org/jraf/klibgocardless/client/GoCardlessClient {
+	public static final field Companion Lorg/jraf/klibgocardless/client/GoCardlessClient$Companion;
+	public abstract fun createEndUserAgreement-gIAlu-s (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public abstract fun createRequisition-0E7RQCE (Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public abstract fun getBalance-gIAlu-s (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public abstract fun getTransactions-gIAlu-s (Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class org/jraf/klibgocardless/client/GoCardlessClient$Companion {
+	public final fun newInstance (Lorg/jraf/klibgocardless/client/configuration/ClientConfiguration;)Lorg/jraf/klibgocardless/client/GoCardlessClient;
+}
+
+public final class org/jraf/klibgocardless/client/GoCardlessClient$GoCardlessServiceException : java/lang/Exception {
+}
+
+public final class org/jraf/klibgocardless/client/configuration/ClientConfiguration {
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;)Lorg/jraf/klibgocardless/client/configuration/ClientConfiguration;
+	public static synthetic fun copy$default (Lorg/jraf/klibgocardless/client/configuration/ClientConfiguration;Ljava/lang/String;Ljava/lang/String;Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;ILjava/lang/Object;)Lorg/jraf/klibgocardless/client/configuration/ClientConfiguration;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getHttpConfiguration ()Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;
+	public final fun getSecretId ()Ljava/lang/String;
+	public final fun getSecretKey ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class org/jraf/klibgocardless/client/configuration/HttpConfiguration {
+	public fun <init> ()V
+	public fun <init> (Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;Lorg/jraf/klibgocardless/client/configuration/HttpProxy;)V
+	public synthetic fun <init> (Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;Lorg/jraf/klibgocardless/client/configuration/HttpProxy;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public final fun component2 ()Lorg/jraf/klibgocardless/client/configuration/HttpProxy;
+	public final fun copy (Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;Lorg/jraf/klibgocardless/client/configuration/HttpProxy;)Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;
+	public static synthetic fun copy$default (Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;Lorg/jraf/klibgocardless/client/configuration/HttpProxy;ILjava/lang/Object;)Lorg/jraf/klibgocardless/client/configuration/HttpConfiguration;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getHttpProxy ()Lorg/jraf/klibgocardless/client/configuration/HttpProxy;
+	public final fun getLoggingLevel ()Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class org/jraf/klibgocardless/client/configuration/HttpLoggingLevel : java/lang/Enum {
+	public static final field ALL Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public static final field BODY Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public static final field HEADERS Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public static final field INFO Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public static final field NONE Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+	public static fun values ()[Lorg/jraf/klibgocardless/client/configuration/HttpLoggingLevel;
+}
+
+public final class org/jraf/klibgocardless/client/configuration/HttpProxy {
+	public fun <init> (Ljava/lang/String;I)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()I
+	public final fun copy (Ljava/lang/String;I)Lorg/jraf/klibgocardless/client/configuration/HttpProxy;
+	public static synthetic fun copy$default (Lorg/jraf/klibgocardless/client/configuration/HttpProxy;Ljava/lang/String;IILjava/lang/Object;)Lorg/jraf/klibgocardless/client/configuration/HttpProxy;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getHost ()Ljava/lang/String;
+	public final fun getPort ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class org/jraf/klibgocardless/model/Transaction {
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lkotlinx/datetime/LocalDate;Ljava/math/BigDecimal;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Lkotlinx/datetime/LocalDate;
+	public final fun component4 ()Ljava/math/BigDecimal;
+	public final fun component5 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Lkotlinx/datetime/LocalDate;Ljava/math/BigDecimal;Ljava/lang/String;)Lorg/jraf/klibgocardless/model/Transaction;
+	public static synthetic fun copy$default (Lorg/jraf/klibgocardless/model/Transaction;Ljava/lang/String;Ljava/lang/String;Lkotlinx/datetime/LocalDate;Ljava/math/BigDecimal;Ljava/lang/String;ILjava/lang/Object;)Lorg/jraf/klibgocardless/model/Transaction;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAmount ()Ljava/math/BigDecimal;
+	public final fun getDate ()Lkotlinx/datetime/LocalDate;
+	public final fun getId ()Ljava/lang/String;
+	public final fun getInternalId ()Ljava/lang/String;
+	public final fun getLabel ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
