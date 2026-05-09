@@ -1,0 +1,8 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:klibgocardless
+org.jraf.klibgocardless
+org.jraf.klibgocardless.client
+org.jraf.klibgocardless.client.configuration
+org.jraf.klibgocardless.model

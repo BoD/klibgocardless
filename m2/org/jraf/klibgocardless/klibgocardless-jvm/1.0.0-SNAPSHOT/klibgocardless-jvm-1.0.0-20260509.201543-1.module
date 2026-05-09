@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibgocardless/1.0.0-SNAPSHOT/klibgocardless-1.0.0-SNAPSHOT.module",
+    "group": "org.jraf.klibgocardless",
+    "module": "klibgocardless",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 125815,
+          "sha512": "d5d44cd5eb1409f55a12c5d85afdbafa1f9bedd7f88e62006b70df72f25d5acef18ffbb0461118ae2ed72819fa22e6332da42e6fbd9c95fb73d89dff9b207cba",
+          "sha256": "e68d97730f394462125a441c74c555c48579334795deaf7ed0fdb6638780e38a",
+          "sha1": "3919b15ffb6afc42253be290f9303a47fcce61c6",
+          "md5": "1c3a7015e28645a11e5c3446b76aef55"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk9",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jraf.klibnanolog",
+          "module": "klibnanolog",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 125815,
+          "sha512": "d5d44cd5eb1409f55a12c5d85afdbafa1f9bedd7f88e62006b70df72f25d5acef18ffbb0461118ae2ed72819fa22e6332da42e6fbd9c95fb73d89dff9b207cba",
+          "sha256": "e68d97730f394462125a441c74c555c48579334795deaf7ed0fdb6638780e38a",
+          "sha1": "3919b15ffb6afc42253be290f9303a47fcce61c6",
+          "md5": "1c3a7015e28645a11e5c3446b76aef55"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "klibgocardless-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "url": "klibgocardless-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "size": 18625,
+          "sha512": "7af23a26e27f9b680399a6c5d1e71348adef1626f0f1e3a57bcffcfc27ef13222b880dbd650c198f4b113e876d3305279902c8f98fe39ad77241965a05fd3665",
+          "sha256": "a476df1019fc1cc65c8ff15c6bce881560dec2b5208a5821f402a2a2010e47ee",
+          "sha1": "443360e810a0f0ce876815fdf94145afb4309e28",
+          "md5": "30192020c1f99edfc9414ddd2d78f960"
+        }
+      ]
+    }
+  ]
+}

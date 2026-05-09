@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":klibgocardless/commonMain":[],":klibgocardless/jvmMain":[":klibgocardless/commonMain"]}'
