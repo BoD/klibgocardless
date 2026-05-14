@@ -37,11 +37,11 @@
         {
           "name": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
           "url": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 125815,
-          "sha512": "d5d44cd5eb1409f55a12c5d85afdbafa1f9bedd7f88e62006b70df72f25d5acef18ffbb0461118ae2ed72819fa22e6332da42e6fbd9c95fb73d89dff9b207cba",
-          "sha256": "e68d97730f394462125a441c74c555c48579334795deaf7ed0fdb6638780e38a",
-          "sha1": "3919b15ffb6afc42253be290f9303a47fcce61c6",
-          "md5": "1c3a7015e28645a11e5c3446b76aef55"
+          "size": 125822,
+          "sha512": "babdf7ba6ded8aa26f2fcfa72a62c83e0b4f436a5b4c54bb66c1478f10c4b1385ece48dfb4e69001024773e60301948dd1004a4ec844a360dece1eba68f16959",
+          "sha256": "89f9e890c8e68f1b7dc6871c96d3e77e6ec970b2cbac9688ffbf5c332119de2e",
+          "sha1": "7ed67d3fdf40b7592f6a4070bfd680ebea4a644d",
+          "md5": "4ff4ff70bbe899d7b4440fb27c17956b"
         }
       ]
     },
@@ -137,11 +137,11 @@
         {
           "name": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
           "url": "klibgocardless-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 125815,
-          "sha512": "d5d44cd5eb1409f55a12c5d85afdbafa1f9bedd7f88e62006b70df72f25d5acef18ffbb0461118ae2ed72819fa22e6332da42e6fbd9c95fb73d89dff9b207cba",
-          "sha256": "e68d97730f394462125a441c74c555c48579334795deaf7ed0fdb6638780e38a",
-          "sha1": "3919b15ffb6afc42253be290f9303a47fcce61c6",
-          "md5": "1c3a7015e28645a11e5c3446b76aef55"
+          "size": 125822,
+          "sha512": "babdf7ba6ded8aa26f2fcfa72a62c83e0b4f436a5b4c54bb66c1478f10c4b1385ece48dfb4e69001024773e60301948dd1004a4ec844a360dece1eba68f16959",
+          "sha256": "89f9e890c8e68f1b7dc6871c96d3e77e6ec970b2cbac9688ffbf5c332119de2e",
+          "sha1": "7ed67d3fdf40b7592f6a4070bfd680ebea4a644d",
+          "md5": "4ff4ff70bbe899d7b4440fb27c17956b"
         }
       ]
     },
